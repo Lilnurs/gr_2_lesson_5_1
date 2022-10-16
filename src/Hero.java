@@ -25,6 +25,14 @@ public class Hero {
         this.damage = damage;
         this.ability = ability;
     }
+
+    public String toString() {
+        return "Hero" +
+                " HP " + health+
+                " Damage " + damage+
+                " Ability " + ability;
+
+    }
 }
 
 
